@@ -27,6 +27,23 @@ const styles = theme => ({
         marginBottom: 15
       }
     }
+  },
+  [theme.breakpoints.down('xs')]: {
+    root: {
+      textAlign: 'center',
+      paddingTop: 'calc(50vh - 230px)',
+
+      '& .topHeader': {
+        '& .title': {
+          fontSize: 40
+        }
+      },
+
+      '& img': {
+        width: '100%',
+        maxWidth: 200
+      }
+    }
   }
 })
 
