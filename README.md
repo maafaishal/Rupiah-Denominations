@@ -1,21 +1,25 @@
-# Next.js example
+# Rupiah in denomination (Tokopedia)
 
-## How to use
+This project created follow by Tokopedia instruction to write a simple application that given a number of rupiahs will calculate the minimum number of rupiahs needed to make that amount.
 
-Download the example [or clone the repo](https://github.com/mui-org/material-ui):
+This project developed using [Next.js](https://nextjs.org/ "Next.js").
 
-```sh
-curl https://codeload.github.com/mui-org/material-ui/tar.gz/master | tar -xz --strip=2  material-ui-master/examples/nextjs
-cd nextjs
-```
+## Live Demo
+You could access **https://denomination-tokopedia.herokuapp.com/**
 
-Install it and run:
-
+## How to run
 ```sh
 npm install
 npm run dev
+
+// or
+
+yarn
+yarn dev
 ```
 
-## The idea behind the example
+## Screenshot
+![](https://cdn.pbrd.co/images/HZSnVEX.png)
 
-[Next.js](https://github.com/zeit/next.js) is a framework for server-rendered React apps.
+---
+Copyright © 2019 by Muhammad Al Anis Faishal
