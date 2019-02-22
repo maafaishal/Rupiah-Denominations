@@ -13,12 +13,13 @@ import MoneyTable from 'components/moneyTable'
 const styles = theme => ({
   root: {
     textAlign: 'center',
-    paddingTop: 'calc(50vh - 230px)',
+    paddingTop: 'calc(50vh - 166px)',
 
     '& .topHeader': {
       '& .title': {
         fontWeight: 600,
-        fontSize: 60,
+        marginBottom: 50,
+        fontSize: 40,
         color: '#333'
       },
 
@@ -145,11 +146,7 @@ class Index extends React.Component {
       <div className={classes.root}>
         <div className="topHeader">
           <Typography className="title" component="h2" variant="h1" gutterBottom>
-          Denominations
-          </Typography>
-          <img src="/static/tokopedia.png" alt="Tokopedia" />
-          <Typography className="created" variant="body1" gutterBottom>
-            Created by Muhammad Al Anis Faishal
+          Denomination Rupiah
           </Typography>
         </div>
         <Grid container spacing={8}>
@@ -162,7 +159,7 @@ class Index extends React.Component {
               onChange={this.handleChange('amount')}
               onKeyPress={this._handleKeyPress}
               margin="normal"
-              error={error}
+              error={Boolean(error)}
               helperText={error}
               fullWidth
             />
