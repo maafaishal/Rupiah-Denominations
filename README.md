@@ -1,6 +1,7 @@
 # Denominasi Rupiah dengan Next.js
 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/e407f25a59834d7a98d2fa3d92da797b)](https://app.codacy.com/app/maafaishal/rupiah-denominations?utm_source=github.com&utm_medium=referral&utm_content=maafaishal/rupiah-denominations&utm_campaign=Badge_Grade_Dashboard)
+[![Code Climate](https://codeclimate.com/github/maafaishal/rupiah-denominations/badges/gpa.svg)](https://codeclimate.com/github/maafaishal/rupiah-denominations)
 [![Depedencies Status](https://david-dm.org/maafaishal/rupiah-denominations.svg)](https://david-dm.org/maafaishal/rupiah-denominations)
 
 ***
