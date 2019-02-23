@@ -21,7 +21,7 @@ Bisa mengakses **<https://rupiah-denominations.netlify.com>**
 
 ## Screenshot
 
-![Image](https://i.ibb.co/LvpytnD/Screen-Shot-2019-02-22-at-22-17-41.png)
+![Image](https://i.ibb.co/zxdv7bk/1550885985455.png)
 
 ***
 
