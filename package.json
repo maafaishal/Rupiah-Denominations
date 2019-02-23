@@ -1,6 +1,7 @@
 {
   "name": "rupiah-denominations",
   "version": "0.1.0",
+  "license": "MIT",
   "dependencies": {
     "@material-ui/core": "^3.9.2",
     "babel-plugin-module-resolver": "^3.1.3",
