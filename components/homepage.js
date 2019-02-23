@@ -146,7 +146,7 @@ class Index extends React.Component {
       <div className={classes.root}>
         <div className="topHeader">
           <Typography className="title" component="h2" variant="h1" gutterBottom>
-          Denomination Rupiah
+           Rupiah Denominations
           </Typography>
         </div>
         <Grid container spacing={8}>
