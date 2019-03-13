@@ -8,7 +8,10 @@ before_install:
 
 install:
   - yarn
-  - npm install -g codecov
 
 script:
+  - yarn test
+
+after_script:
+  - npm install -g codecov
   - codecov
